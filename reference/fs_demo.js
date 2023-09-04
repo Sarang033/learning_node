@@ -10,7 +10,12 @@ const path= require('path')
 
 // Create and write into a file
 
-fs.writeFile(path.join(__dirname,'/About','about.txt'),'hi my name is Sarang Sharma', err=>{
+// fs.writeFile(path.join(__dirname,'/About','about.txt'),'hi my name is Sarang Sharma', err=>{
+//     if(err) throw err;
+//     console.log("File created and written to");
+// })
+
+fs.readFile(path.join(__dirname,'/About','01_conditionals.py'),'utf8',(err,data)=>{
     if(err) throw err;
-    console.log("File created and written to");
+    console.log(data)
 })
