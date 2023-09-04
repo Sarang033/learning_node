@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-practise",
+  "version": "1.0.0",
+  "description": "learning NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarang033/learning_node.git"
+  },
+  "author": "Sarang Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarang033/learning_node/issues"
+  },
+  "homepage": "https://github.com/Sarang033/learning_node#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
